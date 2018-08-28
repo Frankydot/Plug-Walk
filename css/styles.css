@@ -69,7 +69,7 @@ nav a:hover {
 .showcase {
   grid-area: showcase;
   min-height: 400px;
-  background: url("../img/wall.jpg");
+  background: url("../img/unsplash-main.jpg");
   /*  changes backgroud to image*/
   background-position: center;
   background-size: cover;
