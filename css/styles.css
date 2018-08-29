@@ -1,7 +1,7 @@
 /*Any variables created in root can be used in the whole stylesheet and is not restricted to any elements*/
 :root {
   --primary: #ddd;
-  --dark: #346789;
+  --dark: /*#191b1c*/#000000;
   --light: #fff;
   --shadow: 0 1px 5px rgba(104, 104, 104, 0.8)
 }
@@ -12,7 +12,7 @@ html {
   color: var(--dark);
 }
 body{
-  background: #ccc;
+  background: url("../img/ansocial.jpg");
   margin: 30px 50px;
   line-height: 1.4;
 }
@@ -115,16 +115,17 @@ nav a:hover {
   grid-template-columns: repeat(auto-fit, ninmax(200px, 1fr));
 }
 .box {
-  background: var(--primary);
+  background: #06606d;
   text-align: center;
   padding: 1.5rem 2rem;
   box-shadow:  var(--shadow);
 }
 /*  info*/
 .info {
-  background: var(--primary);
+  background: #585b4c/*var(--primary)*/;
   display: grid;
   grid-gap: 30px;
+  color: white;
   grid-template-columns: repeat(2, 1fr);
   padding: 3rem;
 }
