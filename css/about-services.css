@@ -1,0 +1,89 @@
+ .about {
+  background: url("../img/about3.png");
+  background-color: steelblue;
+  color: black;
+}
+.services {
+  background: url("../img/unsplashmain.jpg");
+  color: #fff;
+}
+
+.row {
+  color: #42f4d9;
+  font-size: 20px;
+  background-blend-mode: soft-light;
+}
+
+header {
+  background:url("../img/ansocial.jpg");
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: 3px solid;
+}
+
+header a{
+  color: #steelblue;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+/*HEADER ul*/
+header ul {
+  margin: 0;
+  display: inline;
+  padding: 0;
+}
+/*HEADER list items in particular*/
+header li {
+  float: left;
+  display: inline;
+  padding: /*top*/ 0 /*right*/20px /*bottom*/0 /*left*/20px;
+}
+/*float brand id to left*/
+
+/*nav bar*/
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+/*color to header*/
+header .highlight, header .current a {
+  color: teal;
+  font-weight: bold;
+
+}
+/*hover state for menu*/
+header a:hover {
+  font-weight: bold;
+}
+.btn-1 {
+  border: none;
+  background: orange;
+  padding: 3px;
+}
+
+.form {
+  color: grey;
+}
+form select {
+  color: #42f4d9;
+  padding: 13px;
+  background-color: steelblue;
+  font-weight: bold;
+  text-align: center;
+}
+form input:hover{
+  background: highlight;
+
+
+}
+/*footer*/
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  background: black;
+  color: white;
+  font-style: italic;
+}
