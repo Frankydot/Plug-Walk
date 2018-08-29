@@ -1,7 +1,7 @@
 /*Any variables created in root can be used in the whole stylesheet and is not restricted to any elements*/
 :root {
   --primary: #ddd;
-  --dark: #333;
+  --dark: #346789;
   --light: #fff;
   --shadow: 0 1px 5px rgba(104, 104, 104, 0.8)
 }
@@ -69,7 +69,9 @@ nav a:hover {
 .showcase {
   grid-area: showcase;
   min-height: 400px;
-  background: url("../img/unsplash-main.jpg");
+  background: url("../img/unsplash13.jpg");
+  /* background: url("../img/unsplash-main.jpg");
+    background: url("../img/unsplash13.jpg");*/
   /*  changes backgroud to image*/
   background-position: center;
   background-size: cover;
