@@ -33,7 +33,10 @@ body{
   text-decoration: none;
   border: 0;
 }
-
+marquee {
+  font-weight: bold;
+  color: ;
+}
 img {
   max-width: 100%
 }
