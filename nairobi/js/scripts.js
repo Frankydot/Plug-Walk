@@ -4,4 +4,9 @@ $(document).ready(function() {
         pause: true,
         interval: 10000,
     });
+    //toggle option
+    $('#infor').hide();
+    $("button").click(function() {
+        $('#infor').toggle();
+    });
 });
