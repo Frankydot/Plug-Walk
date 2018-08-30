@@ -4,7 +4,8 @@ $(document).ready(function() {
         pause: true,
         interval: 10000,
     });
-    //toggle option
+
+    //toggle options
     $('#infor').hide();
     $("#more").click(function() {
         $('#infor').toggle();
@@ -12,7 +13,24 @@ $(document).ready(function() {
 
     $('#map').hide();
     $('#directions').click(function() {
+        $('#atmosphereCon').hide();
+        $('#eventsCon').hide();
         $('#map').toggle();
     });
+
+    $('#atmosphereCon').hide();
+    $('#atmosphere').click(function() {
+        $('#eventsCon').hide();
+        $('#map').hide();
+        $('#atmosphereCon').toggle();
+    });
+
+    $('#eventsCon').hide();
+    $('#events').click(function() {
+        $('#map').hide();
+        $('#atmosphereCon').hide();
+        $('#eventsCon').toggle();
+    });
+
 
 });
