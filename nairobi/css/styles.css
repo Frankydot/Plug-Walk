@@ -9,6 +9,14 @@
     text-align: center;
 }
 
+#map {
+    text-align: center;
+}
+
+.buttonContainer {
+    padding: 10px;
+}
+
 
 /* Clear floats after the columns */
 
