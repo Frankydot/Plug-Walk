@@ -1,6 +1,6 @@
  .about {
-  background: url("../img/about3.png");
-  background-size: auto;
+  background: url("../img/unsplash1.jpg");
+  background-size: cover;
   background-blend-mode: darken;
   color: black;
 }

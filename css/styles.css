@@ -35,7 +35,7 @@ body{
 }
 marquee {
   font-weight: bold;
-  color: ;
+  color: skyblue;
 }
 img {
   max-width: 100%
@@ -71,9 +71,9 @@ nav a:hover {
 .top-container {
   display: grid;
   grid-gap: 20px;
-  grid-template-areas:
+    /*grid-template-areas:
     'showcase showcase top-box-a'
-    'showcase showcase top-box-b';
+    'showcase showcase top-box-b';*/
 }
 /*  showcase*/
 
@@ -126,21 +126,41 @@ nav a:hover {
   grid-template-columns: repeat(3, 1fr);
   grid-template-columns: repeat(auto-fit, ninmax(200px, 1fr));
 }
-.box {
-  background: #06606d;
+.box1 {
+  background: url("../img/unsplash2.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  box-shadow:  var(--shadow);
+}
+.box2 {
+  background: url("../img/unsplash4.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  box-shadow:  var(--shadow);
+}
+.box3 {
+  background: url("../img/pix13.jpg");
+  background-size: cover;
+  background-position: center;
   text-align: center;
   padding: 1.5rem 2rem;
   box-shadow:  var(--shadow);
 }
 /*  info*/
 .info {
-  background: #585b4c/*var(--primary)*/;
+  background: url("../img/pix16.jpg");
+  background-size: cover;
   display: grid;
   grid-gap: 30px;
   color: white;
   grid-template-columns: repeat(2, 1fr);
   padding: 3rem;
 }
+
 /*  portfolio*/
 .portfolio {
   display: grid;
@@ -176,15 +196,10 @@ nav a:hover {
     .boxes {
       grid-template-columns: 1fr
     }
-    .info {
-      grid-template-columns: 1fr;
+    /*  info*/
+.info {
+      grid-template-columns: 2fr;
     }
-    .info button {
-      display: block;
-      text-align: center;
-      margin: auto;
-    }
-  }
     @media(max-width: 500px) {
       .top-container {
         grid-template-areas:
