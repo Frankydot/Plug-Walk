@@ -6,7 +6,13 @@ $(document).ready(function() {
     });
     //toggle option
     $('#infor').hide();
-    $("button").click(function() {
+    $("#more").click(function() {
         $('#infor').toggle();
     });
+
+    $('#map').hide();
+    $('#directions').click(function() {
+        $('#map').toggle();
+    });
+
 });
