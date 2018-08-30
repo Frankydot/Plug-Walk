@@ -4,11 +4,22 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/script.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <title>Westlands clubs</title>
   </head>
   <body>
     <div class="container">
+      <div class="jumbotron">
+        <h1>Westland hotspots</h2>
+      </div>
+
+      <div class="row">
+      <div class="col-md-3">
+      <div class="thesarabi">
+      <h2 class="h2Sarabi">Sarabi</h2>
+      </div>
       <div id="sarabi">
         <div class="panel panel-primary">
           <div class="panel-heading">
@@ -37,11 +48,16 @@
             <li>Fun pool parties</li>
             <li>chill serene ambience</li>
           </ul>
+          <button id="backsarabi" onclick="back()" class="btn">back</button>
 
         </div>
         </div>
+       </div>
 
-
+        <div class="col-md-3">
+        <div class="theGipsy">
+        <h2 class="h2Gipsy">Gipsy</h2>
+        </div>
         <div id="gipsy">
           <div class="panel panel-primary">
             <div class="panel-heading">
@@ -70,10 +86,16 @@
               <li>great entertainment</li>
               <li>mature crowd</li>
             </ul>
+            <button id="backgipsy" onclick="back()" class="btn">back<button>
 
           </div>
           </div>
+        </div>
 
+          <div class="col-md-3">
+          <div class="theK1">
+          <h2 class="h2k1">Klub K1</h2>
+          </div>
           <div id="k1">
             <div class="panel panel-primary">
               <div class="panel-heading">
@@ -102,10 +124,16 @@
                 <li>Delicious food</li>
                 <li>a chilled vibe</li>
               </ul>
+              <button id="backk1" onclick="back()" class="btn">back</button>
 
             </div>
             </div>
+          </div>
 
+            <div class="col-md-3">
+            <div class="thePrivee">
+            <h2 class="h2privee">Privee</h2>
+            </div>
             <div id="privee">
               <div class="panel panel-primary">
                 <div class="panel-heading">
@@ -134,10 +162,18 @@
                   <li>Great entertainment</li>
                   <li>fun crowds</li>
                 </ul>
+                <button id="backprivee" onclick="back()" class="btn">back</button>
 
               </div>
               </div>
+            </div>
+            </div>
 
+              <div class="row">
+              <div class="col-md-3">
+              <div class="theDiamond">
+              <h2 class="h2diamond">Black Diamond</h2>
+              </div>
               <div id="diamond">
                 <div class="panel panel-primary">
                   <div class="panel-heading">
@@ -166,10 +202,16 @@
                     <li>Fun crowds</li>
                     <li>Awesome music</li>
                   </ul>
+                  <button id="backdiamond" onclick="back()" class="btn">back</button>
 
                 </div>
                 </div>
+              </div>
 
+                <div class="col-md-3">
+                <div class="theHavana">
+                <h2 class="h2havana">Havana restaurant and bar</h2>
+                </div>
                 <div id="havana">
                   <div class="panel panel-primary">
                     <div class="panel-heading">
@@ -198,10 +240,16 @@
                       <li>Great music</li>
                       <li>chill serene ambience</li>
                     </ul>
+                    <button id="backhavana" onclick="back()" class="btn">back</button>
 
                   </div>
                   </div>
+                  </div>
 
+                  <div class="col-md-3">
+                  <div class="theHypnotica">
+                  <h2 class="h2hypnotica">Club Hypnotica</h2>
+                  </div>
                   <div id="hypnotica">
                     <div class="panel panel-primary">
                       <div class="panel-heading">
@@ -230,10 +278,16 @@
                         <li>Ideal places for couples</li>
                         <li>Amazing Music</li>
                       </ul>
+                      <button id="backhypnotica" onclick="back()" class="btn">back</button>
 
                     </div>
                     </div>
+                    </div>
 
+                    <div class="col-md-3">
+                    <div class="theAlchemist">
+                    <h2 class="h2alchemist">The Alchemist Bar</h2>
+                    </div>
                     <div id="alchemist">
                       <div class="panel panel-primary">
                         <div class="panel-heading">
@@ -262,10 +316,19 @@
                           <li>Great food and assortment of drinks</li>
                           <li>great atmosphere</li>
                         </ul>
+                        <button id="backalchemist" onclick="back()" class="btn">back</button>
 
                       </div>
                       </div>
+                      </div>
 
+                    </div>
+
+                      <div class="row">
+                      <div class="col-md-3">
+                      <div class="theAfro">
+                      <h2 class="h2afro">Afro Nightclub</h2>
+                      </div>
                       <div id="afro">
                         <div class="panel panel-primary">
                           <div class="panel-heading">
@@ -294,10 +357,16 @@
                             <li>Extremely fun parties</li>
                             <li>Great atmosphere</li>
                           </ul>
+                          <button id="backafro" onclick="back()" class="btn">back</button>
 
                         </div>
                         </div>
+                        </div>
 
+                        <div class="col-md-3">
+                        <div class="theSky">
+                        <h2 class="h2skyye">G-Skyye Lounge</h2>
+                        </div>
                         <div id="skyye">
                           <div class="panel panel-primary">
                             <div class="panel-heading">
@@ -326,10 +395,16 @@
                               <li>Great entertainment</li>
                               <li>Mature crowds</li>
                             </ul>
+                            <button id="backskyye" onclick="back()" class="btn">back</button>
 
                           </div>
                           </div>
+                          </div>
 
+                          <div class="col-md-3">
+                          <div class="theForty">
+                          <h2 class="h240">40Forty Lounge</h2>
+                          </div>
                           <div id="forty">
                             <div class="panel panel-primary">
                               <div class="panel-heading">
@@ -358,10 +433,16 @@
                                 <li>Great parties</li>
                                 <li>Awesome atmosphere</li>
                               </ul>
+                              <button id="back40" onclick="back()" class="btn">back</button>
 
                             </div>
                             </div>
+                            </div>
 
+                            <div class="col-md-3">
+                            <div class="theGalileo">
+                            <h2 class="h2galileo">Galileo</h2>
+                            </div>
                             <div id="galileo">
                               <div class="panel panel-primary">
                                 <div class="panel-heading">
@@ -383,6 +464,7 @@
                                   <div class="col-xs-4">Cosy</div>
                                   <div class="col-xs-4">Casual</div>
                                 </div>
+
                                 <p>Opening:<strong> 6PM - 6AM </strong></p>
                                 <p>Expect:</p>
                                 <ul>
@@ -390,13 +472,18 @@
                                   <li>Fun crowds</li>
                                   <li>Awesome crowds</li>
                                 </ul>
+                                <button id="backgalileo" onclick="back()" class="btn">back</button>
 
                               </div>
                               </div>
+                              </div>
 
+                             </div>
 
-
-        </div>
+            <div class="appre">
+              <h2>PLUG WALK</h2>
+               <p>Our business your satifaction</p>
+            </div>
       </div>
 
 
