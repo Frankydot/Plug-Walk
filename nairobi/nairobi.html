@@ -7,7 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <script src="js/scripts.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -17,6 +19,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/scripts.js"></script>
     <title>Nairobi.</title>
 </head>
 
@@ -102,30 +105,33 @@
     <br>
 
     <div class="container">
-        <div id="sarabi">
+
+        <!-- CLUB 1-->
+
+        <div id="tribeka">
             <div class="panel panel-primary">
                 <div class="panel-heading">
-                    <h2>Sarabi pool & supper club</h2>
+                    <h2>Tribeka Lounge.</h2>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md-7">
                     <a href="#">
-                        <img src="img/bar1.jpeg" width="700" height="300">
+                        <img src="img/tribeca.jpg" width="700" height="300">
                     </a>
                 </div>
 
                 <div class="col-md-5">
-                    <h3>Project One</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-                    <a class="btn btn-primary" href="#">View Project</a>
+                    <h3>Overview.</h3>
+                    <p>If you are lookin for a place in the heart of Nairobi to catch up with friends while listening to good music and having a drink(s), Tribeka is the place to be.</p>
+                    <button>More..</button>
                 </div>
             </div>
 
             <br>
 
-            <div class="well">
+            <div class="well" id="infor">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card">
@@ -133,7 +139,7 @@
                                 <h4><b>Location</b></h4>
                             </div>
                             <br>
-                            <img src="img/cocktails2.jpg" alt="Avatar" style="width:100%">
+                            <img src="img/location1.jpg" alt="Avatar" style="width:100%">
                             <br>
                             <div class="container">
                                 <p>About</p>
@@ -146,7 +152,7 @@
                                 <h4><b>Theme</b></h4>
                             </div>
                             <br>
-                            <img src="img/cocktails2.jpg" alt="Avatar" style="width:100%">
+                            <img src="img/theme.jpeg" alt="Avatar" style="width:100%">
                             <br>
                             <div class="container">
                                 <p>About</p>
@@ -159,7 +165,7 @@
                                 <h4><b>Events</b></h4>
                             </div>
                             <br>
-                            <img src="img/cocktails2.jpg" alt="Avatar" style="width:100%">
+                            <img src="img/events.jpeg" alt="Avatar" style="width:100%">
                             <br>
                             <div class="container">
                                 <p>About</p>
@@ -167,6 +173,13 @@
                         </div>
                     </div>
                 </div>
+
+                <br>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7977.633010119489!2d36.81916577791732!3d-1.283996927083163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d42a3b1bd5%3A0x2d4f7601d3be989b!2sTribeka+Lounge!5e0!3m2!1sen!2ske!4v1535649702241"
+                        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+
                 <br>
                 <div class="reviews">
                     <h3>Reviews</h3>
@@ -191,9 +204,9 @@
                                 <div class="item active">
                                     <div class="row">
                                         <div class="col-sm-12">
-                                            <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra
-                                                augue. Donec id elit non mi porta gravida at eget metus.&rdquo;</p>
-                                            <small><strong>Vulputate M., Dolor</strong></small>
+                                            <p>&ldquo;Tribeka doesn't seem to age. It's been around for more than a decade, renewed once or twice, but always the same place, ambience and people. The music is always on point.. Contemporary African beats -
+                                                Nigerian, Kenyan... International hits. Deejay is well represented on the decks! Definitely the hang of spot while in downtown Nairobi.&rdquo;</p>
+                                            <small><strong>Henry K.</strong></small>
                                         </div>
                                     </div>
                                 </div>
@@ -202,9 +215,8 @@
                                 <div class="item">
                                     <div class="row">
                                         <div class="col-sm-12">
-                                            <p>&ldquo;Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor
-                                                id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.&rdquo;</p>
-                                            <small><strong>Fringilla A., Vulputate Sit</strong></small>
+                                            <p>&ldquo;Thursday Reggae nights are definitely a must go... great place to sample the Nairobi night party life.&rdquo;</p>
+                                            <small><strong>Lindsay W.</strong></small>
                                         </div>
                                     </div>
                                 </div>
@@ -213,8 +225,9 @@
                                 <div class="item">
                                     <div class="row">
                                         <div class="col-sm-12">
-                                            <p>&ldquo;In one word.. WOW! Theresa Founder of Courageous Womens Foundation..&rdquo;</p>
-                                            <small><strong>Theresa</strong></small>
+                                            <p>&ldquo;The club is the best choice for the urbane Nairobi professional hangout, private parties and corporate events, the outdoor terrace and lounge are great places to hang out. It has interesting street scene
+                                                just outside this club and very secure. One has to relax when chilling here. No worries&rdquo;</p>
+                                            <small><strong>Theresa C.</strong></small>
                                         </div>
                                     </div>
                                 </div>
@@ -228,6 +241,9 @@
 
 
         </div>
+        <hr>
+
+
     </div>
 
     </div>
