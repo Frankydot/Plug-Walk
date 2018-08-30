@@ -5,6 +5,9 @@
   --light: #fff;
   --shadow: 0 1px 5px rgba(104, 104, 104, 0.8)
 }
+h1 {
+  color: #fff;
+}
 marquee {
   color: white;
 }
@@ -15,7 +18,11 @@ html {
   color: var(--dark);
 }
 body{
-  background: url("../img/ansocial.jpg");
+  background: url("../img/pix8.jpg");
+  background-size:
+  /*backface-visibility: hidden;
+  background-blend-mode: darken;
+   /*url("../img/unsplash12.jpg");*/
   margin: 30px 50px;
   line-height: 1.4;
 }
@@ -35,6 +42,7 @@ nav ul {
   display: grid;
   grid-gap: 20px;
   padding: 0;
+  margin: 0;
   list-style: none;
 grid-template-columns: 1fr 1fr 1fr; /*spread the links*/
 }
@@ -44,11 +52,12 @@ nav a {
   display: block;
   text-decoration: none;
   padding: 0;
+  opacity: .8;
   text-align: center;
+  line-height: 25px;
   color: var(--dark);
   text-transform: uppercase;
   font-size: 1.0rem;
-  box-shadow: var(--shadow);
 }
 /*hover state for a=href*/
 nav a:hover {
@@ -69,7 +78,7 @@ nav a:hover {
 .showcase {
   grid-area: showcase;
   min-height: 400px;
-  background: url("../img/unsplash13.jpg");
+  background: url("../img/unsplash6.jpg");
   /* background: url("../img/unsplash-main.jpg");
     background: url("../img/unsplash13.jpg");*/
   /*  changes backgroud to image*/

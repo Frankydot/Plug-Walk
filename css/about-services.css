@@ -1,10 +1,12 @@
  .about {
-  background: url("../img/about3.png");
-  background-color: steelblue;
+  background: url("../img/about3.png") no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
   color: black;
 }
 .services {
-  background: url("../img/unsplashmain.jpg");
+  background: url("../img/unsplashmain.jpg") no-repeat;
+  background-size: cover;
   color: #fff;
 }
 
