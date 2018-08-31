@@ -1,0 +1,242 @@
+#sarabi {
+  display: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+#gipsy {
+  display: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+#k1 {
+  display: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+#privee {
+  display: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+#diamond {
+  display: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+#havana {
+  display: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+#hypnotica {
+  display: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+#alchemist {
+  display: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+#afro {
+  display: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+#skyye {
+  display: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+#forty {
+  display: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+#galileo {
+  display: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.h2Sarabi {
+  cursor: pointer;
+  color: blue;
+}
+
+.h2Gipsy {
+  cursor: pointer;
+  color: blue;
+}
+
+.h2k1 {
+  cursor: pointer;
+  color: blue;
+}
+
+.h2privee {
+  cursor: pointer;
+  color: blue;
+}
+
+.h2diamond {
+  cursor: pointer;
+  color: blue;
+}
+
+.h2havana {
+  cursor: pointer;
+  color: blue;
+}
+
+.h2hypnotica {
+  cursor: pointer;
+  color: blue;
+}
+
+.h2alchemist {
+  cursor: pointer;
+  color: blue;
+}
+
+.h2afro {
+  cursor: pointer;
+  color: blue;
+}
+
+.h2skyye {
+  cursor: pointer;
+  color: blue;
+}
+
+.h240 {
+  cursor: pointer;
+  color: blue;
+}
+
+.h2galileo {
+  cursor: pointer;
+  color: blue;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../img/.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-bottom: 10px;
+}
+
+.jumbotron {
+  background-image: url('../img/nightsky.jpeg');
+  background-attachment: fixed;
+  height: 150px;
+  text-align: center;
+  color: grey;
+  font-family: 'Poppins', sans-serif;
+}
+
+.appre {
+  background-image: url('../img/nightsky.jpeg');
+  background-attachment: fixed;
+  height: 150px;
+  text-align: center;
+  color: white;
+}
+
+.thesarabi {
+  background-image: url("../img/ss.jpg");
+  background-size: cover;
+  height: 150px;
+  width: 80%;
+  text-align: center;
+}
+
+.theGipsy {
+  background-image: url("../img/gipsy.jpg");
+  background-size: cover;
+  height: 150px;
+  width: 80%;
+  text-align: center;
+}
+
+.theK1 {
+  background-image: url("../img/kone.jpg");
+  background-size: cover;
+  height: 150px;
+  width: 80%;
+  text-align: center;
+}
+
+.thePrivee {
+  background-image: url("../img/p.jpg");
+  background-size: cover;
+  height: 150px;
+  width: 100%;
+  text-align: center;
+}
+
+.theDiamond {
+  background-image: url("../img/Diamond.jpg");
+  background-size: cover;
+  height: 150px;
+  width: 80%;
+  text-align: center;
+}
+
+.theHavana {
+  background-image: url("../img/havana1.jpg");
+  background-size: cover;
+  height: 150px;
+  width: 80%;
+  text-align: center;
+}
+
+.theHypnotica {
+  background-image: url("../img/hypnotica.jpg");
+  background-size: cover;
+  height: 150px;
+  width: 80%;
+  text-align: center;
+}
+
+.theAlchemist {
+  background-image: url("../img/alchemist.jpg");
+  background-size: cover;
+  height: 150px;
+  width: 80%;
+  text-align: center;
+}
+
+.theAfro {
+  background-image: url("../img/afro.jpg");
+  background-size: cover;
+  height: 150px;
+  width: 80%;
+  text-align: center;
+}
+
+.theSky  {
+  background-image: url("../img/gsky1.jpg");
+  background-size: cover;
+  height: 150px;
+  width: 80%;
+  text-align: center;
+}
+
+.theForty {
+  background-image: url("../img/40.jpg");
+  background-size: cover;
+  height: 150px;
+  width: 80%;
+  text-align: center;
+}
+
+.theGalileo {
+  background-image: url("../img/galileo.jpg");
+  background-size: cover;
+  height: 150px;
+  width: 80%;
+  text-align: center;
+}
