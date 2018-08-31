@@ -35,7 +35,7 @@ body{
 }
 marquee {
   font-weight: bold;
-  color: skyblue;
+  color: #2d3233;
 }
 img {
   max-width: 100%
@@ -125,6 +125,7 @@ nav a:hover {
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-columns: repeat(auto-fit, ninmax(200px, 1fr));
+  color: #42d9f4;
 }
 .box1 {
   background: url("../img/unsplash2.jpg");
