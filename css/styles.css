@@ -106,7 +106,7 @@ nav a:hover {
   color: var(--light);
 }
 /*  top-box*/
-.top-box {
+/*.top-box {
   background: var(primary);
   display: grid;align-items: center;
   justify-items: center;
@@ -118,7 +118,7 @@ nav a:hover {
 }
 .top-box-b {
   grid-area: top-box-b;
-}
+}*/
 /*  boxes class*/
 .boxes {
   display: grid;
@@ -152,7 +152,7 @@ nav a:hover {
 }
 /*  info*/
 .info {
-  background: url("../img/pix16.jpg");
+  background: url("../img/pix16.jpg") no-repeat;
   background-size: cover;
   display: grid;
   grid-gap: 30px;
