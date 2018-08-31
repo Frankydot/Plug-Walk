@@ -18,7 +18,7 @@ html {
   color: var(--dark);
 }
 body{
-  background: url("../img/pix8.jpg");
+  background: url("../img/ansocial.jpg");
   background-size:
   /*backface-visibility: hidden;
   background-blend-mode: darken;
@@ -35,7 +35,7 @@ body{
 }
 marquee {
   font-weight: bold;
-  color: #2d3233;
+  color: #42d9f4;
 }
 img {
   max-width: 100%
