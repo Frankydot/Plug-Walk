@@ -64,4 +64,36 @@ $(document).ready(function() {
         $('#eventsCon1').toggle();
     });
 
+
+
+
+    //Club 3
+
+    //toggle options
+    $('#infor2').hide();
+    $("#more2").click(function() {
+        $('#infor1').toggle();
+    });
+
+    $('#map2').hide();
+    $('#directions2').click(function() {
+        $('#atmosphereCon2').hide();
+        $('#eventsCon2').hide();
+        $('#map2').toggle();
+    });
+
+    $('#atmosphereCon2').hide();
+    $('#atmosphere2').click(function() {
+        $('#eventsCon2').hide();
+        $('#map2').hide();
+        $('#atmosphereCon2').toggle();
+    });
+
+    $('#eventsCon2').hide();
+    $('#events2').click(function() {
+        $('#map2').hide();
+        $('#atmosphereCon2').hide();
+        $('#eventsCon2').toggle();
+    });
+
 });
