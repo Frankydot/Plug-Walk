@@ -72,7 +72,7 @@ $(document).ready(function() {
     //toggle options
     $('#infor2').hide();
     $("#more2").click(function() {
-        $('#infor1').toggle();
+        $('#infor2').toggle();
     });
 
     $('#map2').hide();
@@ -96,4 +96,66 @@ $(document).ready(function() {
         $('#eventsCon2').toggle();
     });
 
+
+
+
+    //Club 4
+
+    //toggle options
+    $('#infor3').hide();
+    $("#more3").click(function() {
+        $('#infor3').toggle();
+    });
+
+    $('#map3').hide();
+    $('#directions3').click(function() {
+        $('#atmosphereCon3').hide();
+        $('#eventsCon3').hide();
+        $('#map3').toggle();
+    });
+
+    $('#atmosphereCon3').hide();
+    $('#atmosphere3').click(function() {
+        $('#eventsCon3').hide();
+        $('#map3').hide();
+        $('#atmosphereCon3').toggle();
+    });
+
+    $('#eventsCon3').hide();
+    $('#events3').click(function() {
+        $('#map3').hide();
+        $('#atmosphereCon3').hide();
+        $('#eventsCon3').toggle();
+    });
+
+
+
+    //Club 5
+
+    //toggle options
+    $('#infor4').hide();
+    $("#more4").click(function() {
+        $('#infor4').toggle();
+    });
+
+    $('#map4').hide();
+    $('#directions4').click(function() {
+        $('#atmosphereCon4').hide();
+        $('#eventsCon4').hide();
+        $('#map4').toggle();
+    });
+
+    $('#atmosphereCon4').hide();
+    $('#atmosphere4').click(function() {
+        $('#eventsCon4').hide();
+        $('#map4').hide();
+        $('#atmosphereCon4').toggle();
+    });
+
+    $('#eventsCon4').hide();
+    $('#events4').click(function() {
+        $('#map4').hide();
+        $('#atmosphereCon4').hide();
+        $('#eventsCon4').toggle();
+    });
 });
