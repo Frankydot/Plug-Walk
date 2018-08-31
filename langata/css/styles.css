@@ -1,0 +1,263 @@
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #CDFFFF;
+    color: Black;
+    width: auto;
+
+}
+
+.bistro img {
+  background-size: contain;
+}
+.upcoming {
+  color: black;
+  text-align: center;
+  background-image: none;
+  background-color: #CCCCFF;
+  opacity: 0.5;
+}
+
+
+.well {
+  background-color: #CCCCFF;
+  opacity: 0.6;
+}
+
+h1 {
+  opacity: 1;
+  color: black;
+}
+
+#whiskey {
+  display: none;
+}
+
+.theWhiskey {
+  cursor: pointer;
+}
+
+#bistro {
+  display: none;
+}
+
+.theBistro {
+  cursor: pointer;
+}
+
+#rafikiz {
+  display: none;
+}
+
+
+
+.theRafikiz {
+  cursor: pointer;
+}
+
+#offroad {
+  display: none;
+}
+
+.theOffroad {
+  cursor: pointer;
+}
+
+#pitstop {
+  display: none;
+}
+
+.thePitstop {
+  cursor: pointer;
+}
+
+header {
+    background-color: white;
+    color: black;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+
+/*#rig {
+    max-width:900px;
+    margin:0 auto; /*center aligned*/
+    /*padding:0;
+    font-size:0; /* Remember to change it back to normal font size if have captions */
+    /*list-style:none;
+    background-color:#000;
+}*/
+#rig li {
+    display:inline-grid;
+    *display:inline;/*for IE6 - IE7*/
+    width:50%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:20px;
+    padding:0;
+}
+
+/* The wrapper for each item */
+.rig-cell {
+    /*margin:12px;
+    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+
+/* If have the image layer */
+.rig-img {
+    display:inline-grid;
+    width: 100%;
+    height:100%;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+#rig li:hover .rig-img {
+    transform:scale(1.05);
+}
+
+/* If have the overlay layer */
+.rig-overlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #3DC0F1;
+    background-size:50px 50px;
+    opacity:0;
+    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    transition:all 0.6s;
+}
+#rig li:hover .rig-overlay {
+    opacity:0.5;
+}
+
+/* If have captions */
+.rig-text {
+    display:block;
+    padding:0 30px;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'Oswald', sans-serif;
+    font-weight:normal!important;
+    top:40%;
+    color:white;
+    opacity:0;
+    filter:alpha(opacity=0);/*For older IE*/
+    transform:translateY(-20px);
+    transition:all .3s;
+}
+#rig li:hover .rig-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+@media (max-width: 9000px) {
+    #rig li {
+        width:25%;
+    }
+}
+
+@media (max-width: 700px) {
+    #rig li {
+        width:33.33%;
+    }
+}
+
+@media (max-width: 550px) {
+    #rig li {
+        width:50%;
+    }
+}
+
+footer {
+  width: 100%;
+  height: 70%;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 50px;
+}
+
+#events {
+  text-align: center;
+}
+
+#reservations {
+  float: right;
+}
+
+.navigation {
+  width: 800px;
+  background-color: white;
+}
+.home {
+  width: 25%;
+}
+.events {
+  width: 25%;
+}
+.reservations {
+  width: 25%;
+}
+.photos {
+  width: 25%;
+}
+
+body {
+  background-image: url("../images/background-ibiza.jpg");
+}
+
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #4666FF;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.panel-heading{
+  background-color: white;
+
+}

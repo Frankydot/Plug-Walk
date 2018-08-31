@@ -1,0 +1,124 @@
+body {
+    height: 100%;
+    background: url(https://images.pexels.com/photos/700975/pexels-photo-700975.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
+.reviews {
+    text-align: center;
+}
+
+#map {
+    text-align: center;
+}
+
+#map1 {
+    text-align: center;
+}
+
+#map2 {
+    text-align: center;
+}
+
+#map3 {
+    text-align: center;
+}
+
+#map4 {
+    text-align: center;
+}
+
+.buttonContainer {
+    padding: 10px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* carousel */
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+/* indicator position */
+
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: -10px;
+    margin-right: -19px;
+    color: #60dfe5;
+}
+
+
+/* indicator color */
+
+#quote-carousel .carousel-indicators li {
+    background: #333333;
+    height: 4px;
+    width: 50px;
+}
+
+
+/* active indicator */
+
+#quote-carousel .carousel-indicators .active {
+    background: #60dfe5;
+    height: 4x;
+    width: 50px;
+    margin-bottom: 1px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* typography */
+
+h1 {
+    text-align: center;
+    margin-bottom: -20px !important;
+}
+
+.p {
+    font-style: italic;
+    color: azure;
+}
